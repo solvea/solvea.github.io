@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>solvea</title>
   
-  
+  <subtitle>頑張って！</subtitle>
   <link href="https://solvea.github.io/atom.xml" rel="self"/>
   
   <link href="https://solvea.github.io/"/>
