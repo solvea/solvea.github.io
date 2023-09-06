@@ -6,7 +6,7 @@
   <link href="https://solvea.github.io/atom.xml" rel="self"/>
   
   <link href="https://solvea.github.io/"/>
-  <updated>2023-08-18T08:14:52.571Z</updated>
+  <updated>2023-09-06T15:17:49.629Z</updated>
   <id>https://solvea.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AE教程</title>
+    <link href="https://solvea.github.io/2023/09/06/ae-jiao-cheng/"/>
+    <id>https://solvea.github.io/2023/09/06/ae-jiao-cheng/</id>
+    <published>2023-09-06T14:50:19.000Z</published>
+    <updated>2023-09-06T15:17:49.629Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AE教程&quot;&gt;&lt;a href=&quot;#AE教程&quot; class=&quot;headerlink&quot; title=&quot;AE教程&quot;&gt;&lt;/a&gt;AE教程&lt;/h1&gt;&lt;h2 id=&quot;01-了解影视后期合成及AE软件&quot;&gt;&lt;a href=&quot;#01-了解影视后期合成及AE软件&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="AE" scheme="https://solvea.github.io/tags/AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python网站开发</title>
+    <link href="https://solvea.github.io/2023/08/21/python-wang-zhan-kai-fa/"/>
+    <id>https://solvea.github.io/2023/08/21/python-wang-zhan-kai-fa/</id>
+    <published>2023-08-21T07:31:42.000Z</published>
+    <updated>2023-08-21T07:32:22.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;python网站开发&quot;&gt;&lt;a href=&quot;#python网站开发&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="python 网站开发" scheme="https://solvea.github.io/tags/python-%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>政企体系公共教材基础知识篇</title>

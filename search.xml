@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>AE教程</title>
+      <link href="/2023/09/06/ae-jiao-cheng/"/>
+      <url>/2023/09/06/ae-jiao-cheng/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AE教程"><a href="#AE教程" class="headerlink" title="AE教程"></a>AE教程</h1><h2 id="01-了解影视后期合成及AE软件"><a href="#01-了解影视后期合成及AE软件" class="headerlink" title="01 了解影视后期合成及AE软件"></a>01 了解影视后期合成及AE软件</h2><p>AE软件涵盖的范围：</p><p>栏目包装</p><p>特效合成</p><p>抠像合成</p><p>剪辑调色</p><p>AE工作的基本原理：</p><p>层级合成</p><p>层级合成的由来：</p><p>使用在特殊玻璃片上绘景的技术利用摄像机视差的原理来制作特效场景，这些玻璃片就是后期软件中的层。</p><p>目前市面上比较常用的影视特效合成软件：</p><p>AfterEffectsNukeautodeask smoke</p><p>AE是层级合成，Nuke是节点合成。</p><p>层级合成与节点合成的区别介绍：</p><p>层级合成在AE中是一层一层叠加的形式，而节点合成在Nuke中是一个节点一个节点进行拼接的形式。</p><h2 id="02-AE软件初识-工作流程初识"><a href="#02-AE软件初识-工作流程初识" class="headerlink" title="02 AE软件初识_工作流程初识"></a>02 AE软件初识_工作流程初识</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python网站开发</title>
+      <link href="/2023/08/21/python-wang-zhan-kai-fa/"/>
+      <url>/2023/08/21/python-wang-zhan-kai-fa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="python网站开发"><a href="#python网站开发" class="headerlink" title="python网站开发"></a>python网站开发</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python 网站开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>政企体系公共教材基础知识篇</title>
       <link href="/2023/08/18/zheng-qi-ti-xi-gong-gong-jiao-cai-ji-chu-zhi-shi-pian/"/>
       <url>/2023/08/18/zheng-qi-ti-xi-gong-gong-jiao-cai-ji-chu-zhi-shi-pian/</url>
