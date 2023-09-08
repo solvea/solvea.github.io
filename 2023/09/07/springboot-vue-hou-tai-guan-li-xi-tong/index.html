@@ -4,8 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="python爬虫, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
-    <meta name="description" content="python爬虫python基础">
+    <meta name="keywords" content="SpringBoot+Vue后台管理系统, HTML,CSS,JavaScript,JQuery,React,Vue.js等">
+    <meta name="description" content="SpringBoot+Vue后台管理系统01 Vue2集成ElementUI软件版本：
+
+JDK 1.8
+MySQL 5.7+
+node 14.16.0
+navicat
+idea
+
+vue-cli安装命令：
+npm install -g @">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +26,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>python爬虫 | solvea</title>
+    <title>SpringBoot+Vue后台管理系统 | solvea</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -274,12 +283,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">python爬虫</h1>
+                    <h1 class="description center-align post-title">SpringBoot+Vue后台管理系统</h1>
                 </div>
             </div>
         </div>
@@ -303,8 +312,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/python-%E7%88%AC%E8%99%AB/">
-                                <span class="chip bg-color">python 爬虫</span>
+                            <a href="/tags/SpringBoot-Vue/">
+                                <span class="chip bg-color">SpringBoot Vue</span>
                             </a>
                         
                     </div>
@@ -319,21 +328,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-07-12
+                    2023-09-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-07-12
+                    2023-09-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    5
+                    446
                 </div>
                 
 
@@ -360,7 +369,76 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="python爬虫"><a href="#python爬虫" class="headerlink" title="python爬虫"></a>python爬虫</h1><h2 id="python基础"><a href="#python基础" class="headerlink" title="python基础"></a>python基础</h2>
+                <h1 id="SpringBoot-Vue后台管理系统"><a href="#SpringBoot-Vue后台管理系统" class="headerlink" title="SpringBoot+Vue后台管理系统"></a>SpringBoot+Vue后台管理系统</h1><h2 id="01-Vue2集成ElementUI"><a href="#01-Vue2集成ElementUI" class="headerlink" title="01 Vue2集成ElementUI"></a>01 Vue2集成ElementUI</h2><p>软件版本：</p>
+<ul>
+<li>JDK 1.8</li>
+<li>MySQL 5.7+</li>
+<li>node 14.16.0</li>
+<li>navicat</li>
+<li>idea</li>
+</ul>
+<p>vue-cli安装命令：</p>
+<p>npm install -g @vue/cli	这条命令会安装最新版本的vue-cli</p>
+<p>如果想要安装指定版本的vue-cli可以使用下面的命令：</p>
+<p>npm install -g @vue/cli@版本号	这里的“版本号”填自己想要安装的版本就可以了，比如4.16.0</p>
+<p>vue-cli版本查看：</p>
+<p>vue –version</p>
+<p>vue -V</p>
+<p><img src="F:\typora_pics\image-20230907170316461.png" alt="image-20230907170316461"></p>
+<p>以上两个命令都可以查看vue-cli的版本</p>
+<p>npm淘宝镜像设置：</p>
+<p>npm config set registry <a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
+<p>创建vue项目：</p>
+<p>找一个文件夹留放项目，然后在这个文件夹下通过控制台，输入vue create 项目名即可创建项目。</p>
+<p><img src="F:\typora_pics\image-20230907171120798.png" alt="image-20230907171120798"></p>
+<p>选择Manually select features</p>
+<p><img src="F:\typora_pics\image-20230907171146670.png" alt="image-20230907171146670"></p>
+<p>选择Choose Vue version，Babel，Router，其他的不选</p>
+<p><img src="F:\typora_pics\image-20230907171223181.png" alt="image-20230907171223181"></p>
+<p>选择2.x</p>
+<p><img src="F:\typora_pics\image-20230907171245227.png" alt="image-20230907171245227"></p>
+<p>Use history mode for router?	选择Y</p>
+<p><img src="F:\typora_pics\image-20230907171307872.png" alt="image-20230907171307872"></p>
+<p>选择In package.json</p>
+<p><img src="F:\typora_pics\image-20230907171330854.png" alt="image-20230907171330854"></p>
+<p>Save this as a preset for future projects?	选择N</p>
+<p><img src="F:\typora_pics\image-20230907171350360.png" alt="image-20230907171350360"></p>
+<p>这样项目就创建成功了，如下图所示：</p>
+<p><img src="F:\typora_pics\image-20230907171653358.png" alt="image-20230907171653358"></p>
+<p>按照控制台上面的步骤：</p>
+<p>cd demo</p>
+<p>npm run serve</p>
+<p>就可以启动vue项目了</p>
+<p><img src="F:\typora_pics\image-20230907172347494.png" alt="image-20230907172347494"></p>
+<p>在浏览器中输入localhost:8080即可访问</p>
+<p><img src="F:\typora_pics\image-20230907172504582.png" alt="image-20230907172504582"></p>
+<p>想要停止服务在控制台输入Ctrl+C即可，也可以直接关闭控制台：</p>
+<p><img src="F:\typora_pics\image-20230907173822563.png" alt="image-20230907173822563"></p>
+<p>使用idea打开vue项目：</p>
+<p><img src="F:\typora_pics\image-20230907173021608.png" alt="image-20230907173021608"></p>
+<p>Element安装：</p>
+<p>npm i element-ui -S</p>
+<p><img src="F:\typora_pics\image-20230907173933721.png" alt="image-20230907173933721"></p>
+<p>安装成功后，在package.json文件中可以看到element-ui的版本号：</p>
+<p><img src="F:\typora_pics\image-20230907174112337.png" alt="image-20230907174112337"></p>
+<p>使用element-ui：</p>
+<p>将以下两行代码复制到main.js文件中：</p>
+<p>import ElementUI from ‘element-ui’; </p>
+<p>import ‘element-ui/lib/theme-chalk/index.css’;</p>
+<p><img src="F:\typora_pics\image-20230907175016502.png" alt="image-20230907175016502"></p>
+<p>复制下面一行代码到main.js中：</p>
+<p>Vue.use(ElementUI);</p>
+<p>其中，还可以配置组件大小</p>
+<p><img src="F:\typora_pics\image-20230907175238424.png" alt="image-20230907175238424"></p>
+<p>测试element-ui是否可以使用：</p>
+<p><img src="F:\typora_pics\image-20230907175414069.png" alt="image-20230907175414069"></p>
+<p>重新启动项目看一下效果：</p>
+<p><img src="F:\typora_pics\image-20230907175539526.png" alt="image-20230907175539526"></p>
+<p>通过el-button的type属性可以更改按钮颜色：</p>
+<p><img src="F:\typora_pics\image-20230907175855944.png" alt="image-20230907175855944"></p>
+<p><img src="F:\typora_pics\image-20230907175910237.png" alt="image-20230907175910237"></p>
+<p>primary: 蓝色</p>
+
                 
             </div>
             <hr/>
@@ -386,7 +464,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://solvea.github.io/2023/07/12/python-pa-chong/">https://solvea.github.io/2023/07/12/python-pa-chong/</a>
+                    <a href="https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/">https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -424,8 +502,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/python-%E7%88%AC%E8%99%AB/">
-                                    <span class="chip bg-color">python 爬虫</span>
+                                <a href="/tags/SpringBoot-Vue/">
+                                    <span class="chip bg-color">SpringBoot Vue</span>
                                 </a>
                             
                         </div>
@@ -526,17 +604,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2023/08/18/zheng-qi-ti-xi-gong-gong-jiao-cai-ji-chu-zhi-shi-pian/">
+                <a href="/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="政企体系公共教材基础知识篇">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="SpringBoot+Vue后台管理系统">
                         
-                        <span class="card-title">政企体系公共教材基础知识篇</span>
+                        <span class="card-title">SpringBoot+Vue后台管理系统</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -546,9 +625,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-08-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-09-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -557,11 +636,12 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%94%BF%E4%BC%81-%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">政企 基础</span>
+                    <a href="/tags/SpringBoot-Vue/">
+                        <span class="chip bg-color">SpringBoot Vue</span>
                     </a>
                     
                 </div>
@@ -575,13 +655,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/07/03/go-yu-yan/">
+                <a href="/2023/09/06/ae-jiao-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Go语言">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="AE教程">
                         
-                        <span class="card-title">Go语言</span>
+                        <span class="card-title">AE教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -592,7 +672,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-09-06
                             </span>
                         <span class="publish-author">
                             
@@ -605,8 +685,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Golang/">
-                        <span class="chip bg-color">Golang</span>
+                    <a href="/tags/AE/">
+                        <span class="chip bg-color">AE</span>
                     </a>
                     
                 </div>

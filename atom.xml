@@ -6,7 +6,7 @@
   <link href="https://solvea.github.io/atom.xml" rel="self"/>
   
   <link href="https://solvea.github.io/"/>
-  <updated>2023-09-06T15:17:49.629Z</updated>
+  <updated>2023-09-07T09:59:32.514Z</updated>
   <id>https://solvea.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot+Vue后台管理系统</title>
+    <link href="https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/"/>
+    <id>https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/</id>
+    <published>2023-09-07T03:23:10.000Z</published>
+    <updated>2023-09-07T09:59:32.514Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SpringBoot-Vue后台管理系统&quot;&gt;&lt;a href=&quot;#SpringBoot-Vue后台管理系统&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot Vue" scheme="https://solvea.github.io/tags/SpringBoot-Vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AE教程</title>
     <link href="https://solvea.github.io/2023/09/06/ae-jiao-cheng/"/>
     <id>https://solvea.github.io/2023/09/06/ae-jiao-cheng/</id>
     <published>2023-09-06T14:50:19.000Z</published>
-    <updated>2023-09-06T15:17:49.629Z</updated>
+    <updated>2023-09-08T01:33:49.942Z</updated>
     
     
       
