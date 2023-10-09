@@ -6,7 +6,7 @@
   <link href="https://solvea.github.io/atom.xml" rel="self"/>
   
   <link href="https://solvea.github.io/"/>
-  <updated>2023-09-08T01:52:19.737Z</updated>
+  <updated>2023-10-09T13:48:08.463Z</updated>
   <id>https://solvea.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>仓库管理系统（SpringBoot+Vue）</title>
+    <link href="https://solvea.github.io/2023/10/09/cang-ku-guan-li-xi-tong-springboot-vue/"/>
+    <id>https://solvea.github.io/2023/10/09/cang-ku-guan-li-xi-tong-springboot-vue/</id>
+    <published>2023-10-09T11:59:38.000Z</published>
+    <updated>2023-10-09T13:48:08.463Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;仓库管理系统（SpringBoot-Vue）&quot;&gt;&lt;a href=&quot;#仓库管理系统（SpringBoot-Vue）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="SpringBoot Vue" scheme="https://solvea.github.io/tags/SpringBoot-Vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SpringBoot+Vue后台管理系统</title>
     <link href="https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/"/>
     <id>https://solvea.github.io/2023/09/07/springboot-vue-hou-tai-guan-li-xi-tong/</id>
     <published>2023-09-07T03:23:10.000Z</published>
-    <updated>2023-09-08T01:52:19.737Z</updated>
+    <updated>2023-09-08T14:06:44.705Z</updated>
     
     
       
