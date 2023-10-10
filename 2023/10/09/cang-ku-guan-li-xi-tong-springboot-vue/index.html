@@ -339,7 +339,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-10-09
+                    2023-10-10
                 </div>
                 
 
@@ -374,27 +374,27 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="仓库管理系统（SpringBoot-Vue）"><a href="#仓库管理系统（SpringBoot-Vue）" class="headerlink" title="仓库管理系统（SpringBoot+Vue）"></a>仓库管理系统（SpringBoot+Vue）</h1><h2 id="一、创建后端项目"><a href="#一、创建后端项目" class="headerlink" title="一、创建后端项目"></a>一、创建后端项目</h2><p>1、新建空白文件夹，用于存放前后端文件</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009200127023.png" alt="image-20231009200127023"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009200127023.png" alt="image-20231009200127023"></p>
 <p>2、用IDEA打开刚刚新建的空白文件夹</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009201511541.png" alt="image-20231009201511541"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009201511541.png" alt="image-20231009201511541"></p>
 <p>3、创建SpringBoot工程</p>
-<img src="https://gitee.com/solveman/images/raw/master/image-20231009201602518.png" alt="image-20231009201602518" style="zoom:50%;">
+<img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009201602518.png" alt="image-20231009201602518" style="zoom:50%;">
 
-<img src="https://gitee.com/solveman/images/raw/master/image-20231009201711209.png" alt="image-20231009201711209" style="zoom:50%;">
+<img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009201711209.png" alt="image-20231009201711209" style="zoom:50%;">
 
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009201915430.png" alt="image-20231009201915430"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009201915430.png" alt="image-20231009201915430"></p>
 <p>4、创建测试类进行测试</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009203304617.png" alt="image-20231009203304617"></p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009203523220.png" alt="image-20231009203523220"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009203304617.png" alt="image-20231009203304617"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009203523220.png" alt="image-20231009203523220"></p>
 <p>通过百度查询报错原因，发现是SpringBoot版本太高导致的，版本降低就好了</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009203616134.png" alt="image-20231009203616134"></p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009203708339.png" alt="image-20231009203708339"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009203616134.png" alt="image-20231009203616134"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009203708339.png" alt="image-20231009203708339"></p>
 <p>浏览器打开localhost:8080，配置成功</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009203804562.png" alt="image-20231009203804562"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009203804562.png" alt="image-20231009203804562"></p>
 <h2 id="二、加入mybatis-plus支持"><a href="#二、加入mybatis-plus支持" class="headerlink" title="二、加入mybatis-plus支持"></a>二、加入mybatis-plus支持</h2><p>1、在pom.xml中添加mybatis-plus依赖</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009204611144.png" alt="image-20231009204611144"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009204611144.png" alt="image-20231009204611144"></p>
 <p>2、创建数据库</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009205019360.png" alt="image-20231009205019360"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009205019360.png" alt="image-20231009205019360"></p>
 <p>2、创建用户表</p>
 <pre class=" language-mysql"><code class="language-mysql">create table user(
     id int auto_increment comment '主键' primary key,
@@ -409,10 +409,10 @@
 ) charset=utf8;
 </code></pre>
 <p>3、给用户表添加一条数据</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009205732745.png" alt="image-20231009205732745"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009205732745.png" alt="image-20231009205732745"></p>
 <p>4、配置yml文件</p>
 <p>创建SpringBoot项目时会自动生成application.properties文件，但我们一般使用application.yml</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009205930748.png" alt="image-20231009205930748"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009205930748.png" alt="image-20231009205930748"></p>
 <p>端口和数据源的配置</p>
 <pre class=" language-yml"><code class="language-yml">server:
   port: 8090
@@ -473,7 +473,7 @@ spring:
 <span class="token punctuation">}</span>
 </code></pre>
 <p>浏览器访问localhost:8090/list</p>
-<p><img src="https://gitee.com/solveman/images/raw/master/image-20231009212114006.png" alt="image-20231009212114006"></p>
+<p><img src="https://images-158545.oss-cn-shanghai.aliyuncs.com/image-20231009212114006.png" alt="image-20231009212114006"></p>
 <ul>
 <li>自定义listAll()方法</li>
 </ul>
