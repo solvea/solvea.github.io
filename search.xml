@@ -8,7 +8,7 @@
       <link href="/2023/10/29/git-chang-yong-zhi-ling/"/>
       <url>/2023/10/29/git-chang-yong-zhi-ling/</url>
       
-        <content type="html"><![CDATA[<h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><pre class=" language-shell"><code class="language-shell"># 初始化仓库git init# 查看文件状态git status# 暂存文件git add .# 提交文件git commit -m '注释'# 查看日志git log# 回退git reset --hard commitID</code></pre>]]></content>
+        <content type="html"><![CDATA[<h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><pre class=" language-shell"><code class="language-shell"># 初始化仓库git init# 查看文件状态git status# 暂存文件git add .# 提交文件git commit -m '注释'# 查看日志git log# 回退git reset --hard commitID# 查看本地分支git branch# 创建本地分支git branch 分支名# 切换分支git checkout 分支名# 直接切换到一个不存在的分支git checkout -b 分支名# 合并分支git merge 分支名# 删除分支git branch -d 分支名（删除时需要做各种检查）git branch -D 分支名（强制删除）# 添加远程仓库git remote add 远端名称 仓库路径# 查看远程仓库git remote# 将本地仓库推送到远程仓库git push# 同步远程仓库git fetch</code></pre>]]></content>
       
       
       
